@@ -1,0 +1,158 @@
+body {
+  color: #2155CD;
+  font-family: tahoma, sans-serif;
+  margin: 0 auto;
+  width: 90%;
+}
+
+h1 {
+  font-family: georgia, serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  word-spacing: 10px;
+}
+
+h2 {
+  font-family: georgia, serif;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: georgia, serif;
+  font-size: 150%;
+  margin-top: 0;
+  margin-bottom: 18px;
+  word-spacing: 10px;
+}
+
+h4 {
+  font-family: georgia, serif;
+  margin-bottom: 10px;
+}
+
+.top-container {
+  background-color: #E8F9FD;
+  margin-right: 24px;
+  /*padding-top: 30px;
+  padding-bottom: 20px;*/
+  text-align: center;
+}
+
+.top-container-1 {
+  background-color: #E8F9FD;
+  float: left;
+  width: 10%;
+}
+
+.top-container-2 {
+  background-color: #E8F9FD;
+  /*display: inline-block;*/
+  float: left;
+  width: 80%;
+}
+
+.top-container-3 {
+  background-color: #E8F9FD;
+  display: inline-block;
+  width: 10%;
+}
+
+/*.taxi-left {
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+
+.taxi-right {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+}*/
+.middle-container {
+  margin: 5px 0 0 0;
+}
+
+.middle-container-1 {
+  color: #E8F9FD;
+  background-color: #2155CD;
+  float: left;
+  font-size: 120%;
+  margin: 0;
+  padding: 20px 20px 12px 20px;
+  text-align: left;
+  width: 34%;
+}
+
+.list-1 {
+  /*display: inline-block;*/
+  line-height: 1.7;
+  list-style-type: square;
+}
+
+.middle-container-2 {
+  background-color: #E8F9FD;
+  display: inline-block;
+  margin: 0 0 0 5px;
+  padding: 0;
+  width: 62%;
+}
+
+.gallery {
+  background-color: #FFFFFF;
+  /*border: 1px solid #FFFFFF;*/
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  width: 31%;
+}
+
+.gallery:hover {
+  background-color: #FFBB00;
+  /*border: 1px solid #FFBB00;*/
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  background-color: #E8F9FD;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px;
+}
+
+.description:hover {
+  color: #FFBB00;
+}
+
+.bottom-container {
+  background-color: #2155CD;
+  color: #E8F9FD;
+  margin: 2px 24px 0 0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4D96FF;
+  padding: 10px 20px 10px 20px;
+  border: solid #E8F9FD 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFBB00;
+  color: #2155CD;
+  font-weight: bold;
+  text-decoration: none;
+}
